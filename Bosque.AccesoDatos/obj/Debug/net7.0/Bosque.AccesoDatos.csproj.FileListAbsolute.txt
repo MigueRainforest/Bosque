@@ -1,0 +1,17 @@
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.AccesoDatos.deps.json
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.AccesoDatos.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.AccesoDatos.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.Modelos.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.Utilidades.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.Modelos.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\bin\Debug\net7.0\Bosque.Utilidades.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.csproj.AssemblyReference.cache
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.AssemblyInfoInputs.cache
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.AssemblyInfo.cs
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.csproj.CoreCompileInputs.cache
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.csproj.CopyComplete
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\refint\Bosque.AccesoDatos.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\Bosque.AccesoDatos.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.AccesoDatos\obj\Debug\net7.0\ref\Bosque.AccesoDatos.dll

@@ -4,14 +4,163 @@
     "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj": {}
   },
   "projects": {
-    "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj": {
+    "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\Bosque.AccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj",
-        "projectName": "Bosque",
-        "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj",
+        "projectUniqueName": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\Bosque.AccesoDatos.csproj",
+        "projectName": "Bosque.AccesoDatos",
+        "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\Bosque.AccesoDatos.csproj",
         "packagesPath": "C:\\Users\\mhmig\\.nuget\\packages\\",
-        "outputPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\obj\\",
+        "outputPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\dotNetCourse\\InstalledVStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mhmig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj"
+              },
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj",
+        "projectName": "Bosque.Modelos",
+        "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj",
+        "packagesPath": "C:\\Users\\mhmig\\.nuget\\packages\\",
+        "outputPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\dotNetCourse\\InstalledVStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mhmig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj",
+        "projectName": "Bosque.Utilidades",
+        "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj",
+        "packagesPath": "C:\\Users\\mhmig\\.nuget\\packages\\",
+        "outputPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\dotNetCourse\\InstalledVStudio\\Shared\\NuGetPackages"
@@ -44,24 +193,104 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj",
+        "projectName": "Bosque",
+        "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\Bosque.csproj",
+        "packagesPath": "C:\\Users\\mhmig\\.nuget\\packages\\",
+        "outputPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\dotNetCourse\\InstalledVStudio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mhmig\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\Bosque.AccesoDatos.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.AccesoDatos\\Bosque.AccesoDatos.csproj"
+              },
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Modelos\\Bosque.Modelos.csproj"
+              },
+              "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj": {
+                "projectPath": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque.Utilidades\\Bosque.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.11, )"
+              "version": "[7.0.14, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.11, )"
             }

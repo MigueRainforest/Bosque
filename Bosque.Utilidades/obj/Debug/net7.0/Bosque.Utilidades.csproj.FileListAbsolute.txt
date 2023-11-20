@@ -1,0 +1,11 @@
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\bin\Debug\net7.0\Bosque.Utilidades.deps.json
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\bin\Debug\net7.0\Bosque.Utilidades.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\bin\Debug\net7.0\Bosque.Utilidades.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.AssemblyInfoInputs.cache
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.AssemblyInfo.cs
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.csproj.CoreCompileInputs.cache
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\refint\Bosque.Utilidades.dll
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\Bosque.Utilidades.pdb
+D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque.Utilidades\obj\Debug\net7.0\ref\Bosque.Utilidades.dll
