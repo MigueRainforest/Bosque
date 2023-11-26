@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dg7EtDn5jknowJhsHkpxhnRJ/G2+7fiNqTlAhfCsRGs=",
+  "Hash": "iIriWFjVTPB3O9rJAZouo4aRIfIReQ1LrmB3HW4zni4=",
   "Source": "Bosque",
   "BasePath": "_content/Bosque",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\laboratorio.js"
+    },
+    {
+      "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\planta.js",
+      "SourceId": "Bosque",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\",
+      "BasePath": "_content/Bosque",
+      "RelativePath": "js/planta.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\planta.js"
     },
     {
       "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\site.js",

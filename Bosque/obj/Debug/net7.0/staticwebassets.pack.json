@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\laboratorio.js"
     },
     {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\planta.js",
+      "PackagePath": "staticwebassets\\js\\planta.js"
+    },
+    {
       "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
