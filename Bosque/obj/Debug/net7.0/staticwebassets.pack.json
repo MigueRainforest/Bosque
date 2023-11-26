@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\animal.js",
+      "PackagePath": "staticwebassets\\js\\animal.js"
+    },
+    {
       "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\laboratorio.js",
       "PackagePath": "staticwebassets\\js\\laboratorio.js"
     },

@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\ITTG_\S4\Taller BD\Proyecto\Bosque\Bosque
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Animal/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5pbWFsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Animal/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5pbWFsXFVwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Laboratorio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFib3JhdG9yaW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

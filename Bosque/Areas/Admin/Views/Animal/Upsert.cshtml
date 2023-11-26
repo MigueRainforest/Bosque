@@ -1,0 +1,99 @@
+﻿@model Bosque.Modelos.Animal
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Animal";
+}
+
+<form method="post">
+    <div style="padding-left:15%; padding-right:15%; padding-bottom:inherit.4rem;">
+        <div class="row border-0">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+
+        @if(Model.Id !=0)
+        {
+            // Actualizar
+            titulo = "Actualizar Animal";
+            <input type="hidden" asp-for="Id" id="id" />
+        }
+        <div class="col-12 border-bottom p-0">
+            <h2 class="text-primary">@titulo</h2>
+        </div>
+
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Nombre común</label>                
+                <input type="text" asp-for="NombreComun" class="form-control" placeholder="Nombre común de la especie" id="nombreComun" />
+                <span asp-validation-for="NombreComun" class="text-danger"></span>
+            </div>
+        </div>
+         <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Nombre científico</label>                
+                <input type="text" asp-for="NombreCientifico" class="form-control" placeholder="Nombre científico de la especie" id="nombreCientifico" />
+                <span asp-validation-for="NombreCientifico" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Estatus de Amenaza</label>                
+                <input type="text" asp-for="EstatusAmenaza" class="form-control" placeholder="Ejemplo: bajo protección especial" id="estatusAmenaza" />
+                <span asp-validation-for="EstatusAmenaza" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="row mb-2 mt-2">
+            <div class="form-group col-md-6">
+                <label>Dieta</label>
+                <input type="text" asp-for="Dieta" class="form-control" placeholder="Dieta del animal" id="dieta" />
+                <span asp-validation-for="Dieta" class="text-danger"></span>
+            </div>
+        </div>
+        
+        <br />
+        <div>
+            @if(Model.Id !=0)
+            {
+                <partial name="_BotonesActualizarRegresar" model="Model.Id" />
+            }
+            else
+            {
+                <partial name="_BotonesCrearRegresar" />
+            }
+        </div>
+
+    </div>
+
+
+</form>
+
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        document.getElementById("nombreComun").addEventListener('change', function () {
+            validarNombre();
+        });
+
+        function validarNombre() {
+            var url = '@Url.Content("~/")' + "Admin/Animal/ValidarNombre";
+            var id = '#id';
+            var nombreComun = '#nombreComun';
+
+            $.getJSON(url, { id: $(id).val(), nombreComun: $(nombreComun).val() }, function (data) {
+                $.each(data, function (key, value) {
+                    if (value) {
+                        var nombreComun = document.getElementById("nombreComun");
+                        swal("Error", "Nombre ya Existe", "error");
+                        nombreComun.value = "";
+                    }
+                });
+            })
+
+        }
+    </script>
+}
+
