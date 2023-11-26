@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nt23HYv3a6uOQodgmeKNyZkdA5ytQQPDGwFJhLwO7Hs=",
+  "Hash": "dg7EtDn5jknowJhsHkpxhnRJ/G2+7fiNqTlAhfCsRGs=",
   "Source": "Bosque",
   "BasePath": "_content/Bosque",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\laboratorio.js",
+      "SourceId": "Bosque",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\",
+      "BasePath": "_content/Bosque",
+      "RelativePath": "js/laboratorio.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\laboratorio.js"
     },
     {
       "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\site.js",

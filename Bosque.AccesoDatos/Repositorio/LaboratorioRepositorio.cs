@@ -24,7 +24,7 @@ namespace Bosque.AccesoDatos.Repositorio
             {
                 laboratorioBD.Nombre = laboratorio.Nombre;
                 laboratorioBD.Ubicacion = laboratorio.Ubicacion;
-                laboratorioBD.Personal = laboratorio.Personal;
+                //laboratorioBD.Personal = laboratorio.Personal;
                 laboratorioBD.Descripcion = laboratorio.Descripcion;
                 _db.SaveChanges();
             }

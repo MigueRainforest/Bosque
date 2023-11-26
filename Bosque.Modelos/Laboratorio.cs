@@ -20,9 +20,10 @@ namespace Bosque.Modelos
         [MaxLength(100, ErrorMessage = "La Ubicacion ser máximo 100 caracteres")]
         public string Ubicacion { get; set; }
 
+        /*
         [Required(ErrorMessage = "Personal es requerida")]
         [MaxLength(50, ErrorMessage = "Debe ser máximo 50 caracteres")]
-        public string Personal { get; set; }
+        public string Personal { get; set; } */
 
         [Required(ErrorMessage = "La Descripcion es requerida")]
         [MaxLength(100, ErrorMessage = "La Descripcion ser máximo 100 caracteres")]

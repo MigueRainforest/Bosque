@@ -40,11 +40,6 @@ namespace Bosque.AccesoDatos.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Personal")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
                     b.Property<string>("Ubicacion")
                         .IsRequired()
                         .HasMaxLength(100)
