@@ -1,0 +1,94 @@
+﻿@model Bosque.Modelos.ViewModels.PersonalVM
+@using Bosque.Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Nuevo Personal";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div style="padding-left:10%; padding-right:40%; padding-bottom:inherit.4rem;">
+        @if (Model.Personal.Id != 0)
+        {
+            titulo = "Editar Personal";
+            <input asp-for="Personal.Id" hidden />
+
+        }
+
+        <div class="border p-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <h2 class="text-primary">@titulo</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Especialidad</label>
+                                <input asp-for="Personal.Especialidad" class="form-control" />
+                                <span asp-validation-for="Personal.Especialidad" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Laboratorio</label>
+                                <select asp-for="Personal.LaboratorioId" asp-items="@Model.LaboratorioLista" class="form-select">
+                                    <option disabled selected>-- Seleccione Laboratorio --</option>
+                                </select>
+                                <span asp-validation-for="Personal.LaboratorioId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="d-grid gap-2 d-md-block">
+                            @if (Model.Personal.Id != 0)
+                            {
+                                <partial name="_BotonesActualizarRegresar" model="Model.Personal.Id" />
+                            }
+                            else
+                            {
+                                <partial name="_BotonesCrearRegresar" />
+                            }
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        document.getElementById("especialidad").addEventListener('change', function () {
+            ValidarEspecialidad();
+        });
+
+        function ValidarEspecialidad() {
+            var url = '@Url.Content("~/")' + "Admin/Personal/ValidarEspecialidad";
+            var id = '#id';
+            var especialidad = '#especialidad';
+
+            $.getJSON(url, { id: $(id).val(), especialidad: $(especialidad).val() }, function (data) {
+                $.each(data, function (key, value) {
+                    if (value) {
+                        var especialidad = document.getElementById("especialidad");
+                        swal("Error", "Esta Especialidad ya existe", "error");
+                        //especialidad.value = "";
+                        $(especialidad).val("");
+                    }
+                });
+            })
+
+        }
+    </script>
+}
+

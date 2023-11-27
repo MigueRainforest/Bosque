@@ -14,12 +14,14 @@ namespace Bosque.AccesoDatos.Repositorio
         public ILaboratorioRepositorio Laboratorio { get; private set; }
         public IPlantaRepositorio Planta { get; private set; }
         public IAnimalRepositorio Animal { get; private set; }
+        public IPersonalRepositorio Personal { get; private set; }
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
             Laboratorio = new LaboratorioRepositorio(_db);
             Planta = new PlantaRepositorio(_db);
             Animal = new AnimalRepositorio(_db);
+            Personal = new PersonalRepositorio(_db);
 
         }
 

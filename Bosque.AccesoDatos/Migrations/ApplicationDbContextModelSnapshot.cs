@@ -31,7 +31,6 @@ namespace Bosque.AccesoDatos.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Dieta")
-                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
@@ -81,6 +80,29 @@ namespace Bosque.AccesoDatos.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Laboratorios");
+                });
+
+            modelBuilder.Entity("Bosque.Modelos.Personal", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Especialidad")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("LaboratorioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LaboratorioId");
+
+                    b.ToTable("Personal");
                 });
 
             modelBuilder.Entity("Bosque.Modelos.Planta", b =>
@@ -311,6 +333,17 @@ namespace Bosque.AccesoDatos.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Bosque.Modelos.Personal", b =>
+                {
+                    b.HasOne("Bosque.Modelos.Laboratorio", "Laboratorio")
+                        .WithMany()
+                        .HasForeignKey("LaboratorioId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Laboratorio");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

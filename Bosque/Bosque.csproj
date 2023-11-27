@@ -26,4 +26,8 @@
     <ProjectReference Include="..\Bosque.Utilidades\Bosque.Utilidades.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\imagenes\animales\" />
+  </ItemGroup>
+
 </Project>
