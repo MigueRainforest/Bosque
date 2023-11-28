@@ -24,6 +24,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQW5pbWFsXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Botanico/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm90YW5pY29cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Botanico/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQm90YW5pY29cVXBzZXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Laboratorio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTGFib3JhdG9yaW9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

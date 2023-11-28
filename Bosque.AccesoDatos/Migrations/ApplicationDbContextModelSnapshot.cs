@@ -54,6 +54,47 @@ namespace Bosque.AccesoDatos.Migrations
                     b.ToTable("Animales");
                 });
 
+            modelBuilder.Entity("Bosque.Modelos.Botanico", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Apellidos")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<string>("Cedula")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<int>("PersonalId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("PersonalId");
+
+                    b.ToTable("Botanicos");
+                });
+
             modelBuilder.Entity("Bosque.Modelos.Laboratorio", b =>
                 {
                     b.Property<int>("Id")
@@ -333,6 +374,17 @@ namespace Bosque.AccesoDatos.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Bosque.Modelos.Botanico", b =>
+                {
+                    b.HasOne("Bosque.Modelos.Personal", "Personal")
+                        .WithMany()
+                        .HasForeignKey("PersonalId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Personal");
                 });
 
             modelBuilder.Entity("Bosque.Modelos.Personal", b =>

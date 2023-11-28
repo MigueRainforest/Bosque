@@ -15,6 +15,7 @@ namespace Bosque.AccesoDatos.Repositorio
         public IPlantaRepositorio Planta { get; private set; }
         public IAnimalRepositorio Animal { get; private set; }
         public IPersonalRepositorio Personal { get; private set; }
+        public IBotanicoRepositorio Botanico { get; private set; }
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
@@ -22,6 +23,7 @@ namespace Bosque.AccesoDatos.Repositorio
             Planta = new PlantaRepositorio(_db);
             Animal = new AnimalRepositorio(_db);
             Personal = new PersonalRepositorio(_db);
+            Botanico = new BotanicoRepositorio(_db);
 
         }
 

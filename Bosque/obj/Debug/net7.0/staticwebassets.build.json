@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xo4aw2q29Wn7PApEJL/GBphLtP9vDEyQKLr8Mi/0BzI=",
+  "Hash": "E3PRaJGdAD4v2T48il3ncE8blsHjDYJHBgwyTPd7xCI=",
   "Source": "Bosque",
   "BasePath": "_content/Bosque",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\animal.js"
+    },
+    {
+      "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\botanico.js",
+      "SourceId": "Bosque",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\",
+      "BasePath": "_content/Bosque",
+      "RelativePath": "js/botanico.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\botanico.js"
     },
     {
       "Identity": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\laboratorio.js",

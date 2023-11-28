@@ -1,0 +1,127 @@
+﻿@model Bosque.Modelos.ViewModels.BotanicoVM
+@using Bosque.Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Nuevo Botanico";
+}
+
+<form method="post" enctype="multipart/form-data">
+    <div style="padding-left:10%; padding-right:40%; padding-bottom:inherit.4rem;">
+        @if (Model.Botanico.Id != 0)
+        {
+            titulo = "Editar Botanico";
+            <input asp-for="Botanico.Id" hidden id="id"/>
+
+        }
+
+        <div class="border p-7">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row">
+                <h2 class="text-primary">@titulo</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Nombre</label>
+                                <input asp-for="Botanico.Nombre" class="form-control" placeholder="Nombre" />
+                                <span asp-validation-for="Botanico.Nombre" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Apellidos</label>
+                                <input asp-for="Botanico.Apellidos" class="form-control" placeholder="Apellidos" />
+                                <span asp-validation-for="Botanico.Apellidos" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Fecha de Nacimiento</label>
+                                <input asp-for="Botanico.FechaNacimiento" class="form-control" placeholder="AÑO-MES-DIA" />
+                                <span asp-validation-for="Botanico.Apellidos" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Género</label>
+                                <input asp-for="Botanico.Genero" class="form-control" id="cedula" />
+                                <span asp-validation-for="Botanico.Genero" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Cédula</label>
+                                <input asp-for="Botanico.Cedula" class="form-control" id="cedula" />
+                                <span asp-validation-for="Botanico.Cedula" class="text-danger"></span>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Personal</label>
+                                <select asp-for="Botanico.PersonalId" asp-items="@Model.PersonalLista" class="form-select">
+                                    <option disabled selected>-- Seleccione Personal --</option>
+                                </select>
+                                <span asp-validation-for="Botanico.PersonalId" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="d-grid gap-2 d-md-block">
+                            @if (Model.Botanico.Id != 0)
+                            {
+                                <partial name="_BotonesActualizarRegresar" model="Model.Botanico.Id" />
+                            }
+                            else
+                            {
+                                <partial name="_BotonesCrearRegresar" />
+                            }
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        document.getElementById("cedula").addEventListener('change', function () {
+            ValidarCedula();
+        });
+
+        function ValidarCedula() {
+            var url = '@Url.Content("~/")' + "Admin/Botanico/ValidarCedula";
+            var id = '#id';
+            var cedula = '#cedula';
+
+            $.getJSON(url, { id: $(id).val(), cedula: $(cedula).val() }, function (data) {
+                $.each(data, function (key, value) {
+                    if (value) {
+                        var cedula = document.getElementById("cedula");
+                        swal("Error", "Esta Cedula ya existe", "error");
+                        //especialidad.value = "";
+                        $(cedula).val("");
+                    }
+                });
+            })
+
+        }
+    </script>
+}
+

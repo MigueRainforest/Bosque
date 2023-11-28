@@ -37,7 +37,7 @@ namespace Bosque.AccesoDatos.Repositorio
                 //return _db.Laboratorios.Where(c => c.Estado == true).Select(c => new SelectListItem 
                 //Podemos condicionar para que solo filtre 1 SOLO LABORATORIO, por ejemplo: c.Nombre == "ECOSUR - Chiapas" 
                 //return _db.Laboratorios.Select(c => new SelectListItem
-                return _db.Laboratorios.Where(c => c.Nombre == "ECOSUR - San Cristobal de las Casas").Select(c => new SelectListItem
+                return _db.Laboratorios.Where(c => c.Nombre == "ECOSUR - Villahermosa").Select(c => new SelectListItem
                 {
                     Text = c.Nombre,
                     Value = c.Id.ToString()
