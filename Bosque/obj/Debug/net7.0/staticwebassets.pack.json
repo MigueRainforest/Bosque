@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\imagenes\\bosque.png",
+      "PackagePath": "staticwebassets\\imagenes\\bosque.png"
+    },
+    {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\imagenes\\faisan.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\faisan.jpg"
+    },
+    {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\imagenes\\hawk.ico",
+      "PackagePath": "staticwebassets\\imagenes\\hawk.ico"
+    },
+    {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\imagenes\\jaguar.png",
+      "PackagePath": "staticwebassets\\imagenes\\jaguar.png"
+    },
+    {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\imagenes\\tucanes.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\tucanes.JPG"
+    },
+    {
       "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\animal.js",
       "PackagePath": "staticwebassets\\js\\animal.js"
     },
@@ -35,6 +55,10 @@
     {
       "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\js\\zoologo.js",
+      "PackagePath": "staticwebassets\\js\\zoologo.js"
     },
     {
       "Id": "D:\\ITTG_\\S4\\Taller BD\\Proyecto\\Bosque\\Bosque\\wwwroot\\lib\\bootstrap\\LICENSE",

@@ -13,6 +13,7 @@ namespace Bosque.AccesoDatos.Repositorio.IRepositorio
         IAnimalRepositorio Animal { get; }
         IPersonalRepositorio Personal { get; }
         IBotanicoRepositorio Botanico { get; }
+        IZoologoRepositorio Zoologo { get; }
 
         Task Guardar();
     }

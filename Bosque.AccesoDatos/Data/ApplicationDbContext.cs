@@ -17,6 +17,7 @@ namespace Bosque.AccesoDatos.Data
         public DbSet<Animal> Animales { get; set; }
         public DbSet<Personal> Personal { get; set; }
         public DbSet<Botanico> Botanicos { get; set; }
+        public DbSet<Zoologo> Zoologos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

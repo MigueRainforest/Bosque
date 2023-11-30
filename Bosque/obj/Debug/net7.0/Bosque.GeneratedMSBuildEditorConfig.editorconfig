@@ -56,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUGxhbnRhXFVwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Zoologo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWm9vbG9nb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/Zoologo/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWm9vbG9nb1xVcHNlcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ITTG_/S4/Taller BD/Proyecto/Bosque/Bosque/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
